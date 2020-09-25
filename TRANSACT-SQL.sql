@@ -1,4 +1,4 @@
--- VÕ D? D? VCC: TÕNH T?NG 2 S?
+-- VI DU: TINH TONG 2 SO
 BEGIN 
 	DECLARE @v_Result INT;
 	DECLARE @v_a INT = 50;
@@ -12,7 +12,7 @@ BEGIN
 	PRINT 'v_a + v_b = ' + CAST(@v_Result AS VARCHAR(15));
 END;
 
--- VÕ D? KH” H?N TÕ: IF (ELSE IF) ELSE
+-- V√ç DU: IF (ELSE IF) ELSE
 
 BEGIN
 	DECLARE @Option INT;
@@ -34,7 +34,7 @@ BEGIN
 	PRINT '@Action = ' + @Action;
 END
 
-
+VI DU: WHILE LOOP
 DECLARE @x INT = 0;	
 WHILE (@x < 10)
 	BEGIN 
