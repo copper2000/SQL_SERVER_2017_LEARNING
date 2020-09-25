@@ -34,7 +34,7 @@ BEGIN
 	PRINT '@Action = ' + @Action;
 END
 
-VI DU: WHILE LOOP
+-- VI DU: WHILE LOOP
 DECLARE @x INT = 0;	
 WHILE (@x < 10)
 	BEGIN 
